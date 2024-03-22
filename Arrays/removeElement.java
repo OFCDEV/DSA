@@ -1,3 +1,4 @@
+//Remove element and return a new array.
 package Arrays;
 import java.util.Arrays;
 public class removeElement {
