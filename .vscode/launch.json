@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "Arrays.test",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "Arrays.binarySearch",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "ceilingProb",
+            "request": "launch",
+            "mainClass": "Arrays.ceilingProb",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "floorProb",
+            "request": "launch",
+            "mainClass": "Arrays.floorProb",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "linearSeach",
+            "request": "launch",
+            "mainClass": "Arrays.linearSeach",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "lsearchin2d",
+            "request": "launch",
+            "mainClass": "Arrays.lsearchin2d",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "maxElement",
+            "request": "launch",
+            "mainClass": "Arrays.maxElement",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "maxIn2d",
+            "request": "launch",
+            "mainClass": "Arrays.maxIn2d",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "removeElement",
+            "request": "launch",
+            "mainClass": "Arrays.removeElement",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "reverseArray",
+            "request": "launch",
+            "mainClass": "Arrays.reverseArray",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "swapArray",
+            "request": "launch",
+            "mainClass": "Arrays.swapArray",
+            "projectName": "DSA_6fba82cb"
+        }
+    ]
+}

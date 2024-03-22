@@ -31,7 +31,7 @@ public class binarySearch {
         return -1;
     }
     public static void main(String[] args) {
-        int arr[] = {100,90,70,69,67,50,9};
-        System.out.println(orderAgnosticBS(arr, 9));
+        int arr[] = {1,2,3,4,7,8,9,22};
+        System.out.println(orderAgnosticBS(arr, 5));
     }
 }
