@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "peakElement",
+            "request": "launch",
+            "mainClass": "Arrays.peakElement",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "Arrays.palindrome",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "bsInInfinteArr",
             "request": "launch",
             "mainClass": "Arrays.bsInInfinteArr",
