@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Searching;
 
 public class maxIn2d {
     public static void main(String[] args) {

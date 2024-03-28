@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Searching;
 
 public class nextBigLetter {
     static char nextGreatestLetter(char[] letters, char target){

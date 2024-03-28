@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bs",
+            "request": "launch",
+            "mainClass": "Arrays.bs",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "peakElement",
             "request": "launch",
             "mainClass": "Arrays.peakElement",

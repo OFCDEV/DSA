@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Searching;
 
 public class fastAndLastOccur {
     static int[] firstAndlastOccurance(int arr[],int target){

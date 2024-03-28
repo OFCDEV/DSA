@@ -1,5 +1,5 @@
 //Remove element and return a new array.
-package Arrays;
+package Arrays.Searching;
 import java.util.Arrays;
 public class removeElement {
     static int[] removedArr(int[] arr,int index){

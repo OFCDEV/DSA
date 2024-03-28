@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Searching;
 
 public class palindrome {
     static boolean isPalindrome(int num){

@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Searching;
 
 public class peakIndex {
     static int peakElement(int[] arr){

@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Searching;
 
 public class maxElement {
     static int max(int[] arr){

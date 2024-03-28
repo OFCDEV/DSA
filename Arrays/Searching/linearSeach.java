@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Searching;
 
 public class linearSeach {
     static int search(int[]arr,int target){

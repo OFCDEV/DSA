@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Searching;
 
 public class floorProb {
     static int floor(int arr[],int target){

@@ -1,5 +1,5 @@
 //Binary search in an infinte length of array
-package Arrays;
+package Arrays.Searching;
 
 public class bsInInfinteArr {
     static int binarySearch(int[] arr,int target,int start,int end){

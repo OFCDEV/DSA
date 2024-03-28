@@ -2,7 +2,7 @@
 //Ceiling = Smallest element in array greater or equal to the target element.
 
 
-package Arrays;
+package Arrays.Searching;
 
 public class ceilingProb {
     static int ceilingQ(int arr[], int target){

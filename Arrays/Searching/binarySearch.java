@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Searching;
 
 public class binarySearch {
     static int orderAgnosticBS(int arr[],int target){

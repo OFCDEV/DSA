@@ -1,5 +1,5 @@
 //Remove an element and return the count of other elements
-package Arrays;
+package Arrays.Searching;
 
 public class removeElements {
     static int removeElement(int[] nums, int val) {

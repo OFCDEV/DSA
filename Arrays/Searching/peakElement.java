@@ -3,7 +3,7 @@
 //Q:-Given a mountain array mountainArr, return the minimum index such that mountainArr.get(index) == target. If such an index does not exist, return -1.
 
 //1st approach to find the peak element is to do BinarySearch in Ascending part, if not found do in the Descending part
-package Arrays;
+package Arrays.Searching;
 
 public class peakElement {
     static int search(int[] arr,int target){
