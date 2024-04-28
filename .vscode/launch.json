@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bsInInfinteArr",
+            "request": "launch",
+            "mainClass": "Arrays.Searching.bsInInfinteArr",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "Arrays.Searching.binarySearch",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "fibonacci",
             "request": "launch",
             "mainClass": "Recursion.fibonacci",
