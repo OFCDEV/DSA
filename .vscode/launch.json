@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sortedOrNot",
+            "request": "launch",
+            "mainClass": "Recursion.sortedOrNot",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "bsInInfinteArr",
             "request": "launch",
             "mainClass": "Arrays.Searching.bsInInfinteArr",
