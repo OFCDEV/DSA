@@ -1,5 +1,5 @@
 package Basics;
-public class q1 {
+public class primeOrNot {
     public static void main(String[] args) {
         int  num = 6;
         System.out.println(isPrime(num));

@@ -1,5 +1,5 @@
 package Basics;
-public class q2 {
+public class reverseNum {
     public static void main(String[] args) {
         int num= 2133;
         System.out.println(reverseNumber(num));
