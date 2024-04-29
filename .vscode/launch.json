@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mergeSortRec",
+            "request": "launch",
+            "mainClass": "Recursion.mergeSortRec",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "trianglePattern",
+            "request": "launch",
+            "mainClass": "Recursion.trianglePattern",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "linearSearch",
             "request": "launch",
             "mainClass": "Recursion.linearSearch",
