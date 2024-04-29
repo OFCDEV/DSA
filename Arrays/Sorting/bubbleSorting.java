@@ -1,3 +1,6 @@
+//Compare two neighbour elements and swap;
+//Time complexity- 0(n^2)
+//Stable
 package Arrays.Sorting;
 
 import java.util.Arrays;
