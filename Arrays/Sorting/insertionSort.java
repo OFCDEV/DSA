@@ -1,0 +1,33 @@
+//Time complexity--> Best Case-0(N);Worst Case-0(N^2)
+//Why use?
+//1.Adaptive->Steps got reduced if array is sorted;No. of swaps reduced as compared to bubble sort
+//Its stable.
+//Usually good while partial array is sorted.
+package Arrays.Sorting;
+
+import java.util.Arrays;
+
+public class insertionSort {
+    public static void main(String[] args) {
+        int[] arr = {4,5,6,1,2,3};
+        sort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+    static void sort(int arr[]){
+        for (int i = 0; i < arr.length-1; i++) {
+            for (int j= i+1; j>0; j--) {
+                if (arr[j]<arr[j-1]) {
+                    swap(arr,j,j-1);
+                }else{
+                    break;
+                }
+            }
+        }
+    }
+
+    static void swap(int[] arr, int first, int second) {
+        int temp = arr[first];
+        arr[first] = arr[second];
+        arr[second] = temp;
+    }
+}

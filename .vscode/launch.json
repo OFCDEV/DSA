@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "insertionSort",
+            "request": "launch",
+            "mainClass": "Arrays.Sorting.insertionSort",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "selectionSort",
+            "request": "launch",
+            "mainClass": "Arrays.Sorting.selectionSort",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "quicksort",
             "request": "launch",
             "mainClass": "Arrays.Sorting.quicksort",
