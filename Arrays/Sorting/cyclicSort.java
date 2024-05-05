@@ -1,5 +1,6 @@
 //When given nos. from range 1,N=>Use Cyclic Sort
 //swap number with its correct index(index = value-1)
+//Time complexity- 0(N)
 package Arrays.Sorting;
 
 import java.util.Arrays;
