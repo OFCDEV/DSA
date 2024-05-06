@@ -1,7 +1,11 @@
 package Arrays;
 
 public class findDuplicateNum {
-    public int findDuplicate(int[] arr){
+    public static void main(String[] args) {
+        int arr[] = {1,2,4,5,2};
+        System.out.println(findDuplicate(arr));
+    }
+    public static int findDuplicate(int[] arr){
         int i = 0;
         while (i<arr.length) {
             if (arr[i] != i+1) { //check if element is index+1 or not
