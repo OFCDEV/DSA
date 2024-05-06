@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "disappearedNums",
+            "request": "launch",
+            "mainClass": "Arrays.disappearedNums",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "cyclicSort",
             "request": "launch",
             "mainClass": "Arrays.Sorting.cyclicSort",
