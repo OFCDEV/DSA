@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "findAllSubsets",
+            "request": "launch",
+            "mainClass": "Strings.findAllSubsets",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "removeString",
             "request": "launch",
             "mainClass": "Strings.removeString",
