@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeString",
+            "request": "launch",
+            "mainClass": "Strings.removeString",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "removeChar",
+            "request": "launch",
+            "mainClass": "Strings.removeChar",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "findDuplicateNum",
             "request": "launch",
             "mainClass": "Arrays.findDuplicateNum",
