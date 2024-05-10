@@ -1,6 +1,6 @@
 package Basics;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class armstrong {
     public static void main(String[] args) {
@@ -27,4 +27,5 @@ public class armstrong {
         }
         return sum == org;
     }
+
 }
