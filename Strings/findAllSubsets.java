@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class findAllSubsets {
     public static void main(String[] args) {
         subseq("", "abc");
+        System.out.println(subseqArray("", "abc"));
     }
     static void subseq(String p,String up){
         if (up.isEmpty()) {
