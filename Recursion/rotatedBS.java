@@ -21,4 +21,8 @@ public class rotatedBS {
         }
         return search(arr, target, s, m-1);
     }
+    public static void main(String[] args) {
+        int arr[] = {3,4,1,2};
+        System.out.println(search(arr, 1, 0, arr.length));
+    }
 }
