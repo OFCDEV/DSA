@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "isSorted",
+            "request": "launch",
+            "mainClass": "Arrays.Sorting.isSorted",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "secondLarge",
             "request": "launch",
             "mainClass": "Arrays.secondLarge",
