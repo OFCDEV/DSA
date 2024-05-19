@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "secondLarge",
+            "request": "launch",
+            "mainClass": "Arrays.secondLarge",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "nextBigLetter",
+            "request": "launch",
+            "mainClass": "Arrays.Searching.nextBigLetter",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "hashing",
             "request": "launch",
             "mainClass": "Arrays.hashing",
