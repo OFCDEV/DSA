@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "leftRotateByOne",
+            "request": "launch",
+            "mainClass": "Arrays.leftRotateByOne",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "removeElements",
+            "request": "launch",
+            "mainClass": "Arrays.Searching.removeElements",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "isSorted",
             "request": "launch",
             "mainClass": "Arrays.Sorting.isSorted",
