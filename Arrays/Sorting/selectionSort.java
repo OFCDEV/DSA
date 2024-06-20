@@ -1,7 +1,7 @@
 //Select the largest element in the array and swap it with its correct index(end)
 //Time complexity-0(n^2)
 //Not Stable
-//Use Case-Performs well in short list
+//Use Case-->Performs well in short list
 package Arrays.Sorting;
 import java.util.Arrays;
 public class selectionSort {
