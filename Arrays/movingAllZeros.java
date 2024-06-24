@@ -22,6 +22,25 @@ public class movingAllZeros {
 
         return temp;
     }
+    public int[] moveZeroesOptimal(int[] a) {
+        int j = -1;
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] != 0) {
+                if (j != -1) {
+                    int temp = a[i];
+                    a[i] = a[j];
+                    a[j] = temp;
+                    j++;
+                }
+            } else {
+                if (j == -1) {
+                    j = i;
+                }
+            }
+        }
+        return a;
+    }
+    
     public static void main(String[] args) {
         int n = 5;
         ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(1, 0, 2, 0, 3));
