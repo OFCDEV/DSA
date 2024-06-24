@@ -22,6 +22,7 @@ public class movingAllZeros {
 
         return temp;
     }
+    //Optimal Solution
     public int[] moveZeroesOptimal(int[] a) {
         int j = -1;
         for (int i = 0; i < a.length; i++) {
@@ -32,7 +33,7 @@ public class movingAllZeros {
                     a[j] = temp;
                     j++;
                 }
-            } else {
+            } else { //if a[i]=0
                 if (j == -1) {
                     j = i;
                 }
