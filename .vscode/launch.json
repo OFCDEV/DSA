@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maxConsecutiveOne",
+            "request": "launch",
+            "mainClass": "Arrays.maxConsecutiveOne",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "findMissing",
+            "request": "launch",
+            "mainClass": "Arrays.findMissing",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "movingAllZeros",
             "request": "launch",
             "mainClass": "Arrays.movingAllZeros",
