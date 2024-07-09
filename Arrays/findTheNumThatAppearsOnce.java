@@ -2,7 +2,6 @@ package Arrays;
 
 public class findTheNumThatAppearsOnce {
     static int bruteForce(int[] arr){
-        int n = arr.length;
         for (int i = 0; i < arr.length; i++) {
             int num = arr[i];
             int count = 0;
