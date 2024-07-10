@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeDupFromSorted",
+            "request": "launch",
+            "mainClass": "Arrays.removeDupFromSorted",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubarray",
+            "request": "launch",
+            "mainClass": "Arrays.LongestSubarray",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "findTheNumThatAppearsOnce",
             "request": "launch",
             "mainClass": "Arrays.findTheNumThatAppearsOnce",
