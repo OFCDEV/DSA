@@ -27,24 +27,29 @@ public class twoSum {
 
     Time-Complexity = 0(N)+0(N log N)
      */
-    static String twoSumOptimal(int n,int[] arr,int target){
+    static int[] twoSumOptimal(int[] arr, int target) {
+        int[] ans = new int[2];
+        ans[0] = ans[1] = -1;
         Arrays.sort(arr);
-        int left=0,right=n-1;
-        while (left<right) {
-            int sum = arr[left]+arr[right];
-            if (sum == target) {
-                return "YES";
+        int left=0,right=arr.length-1;
+        while(left<right){
+            int sum = arr[left] + arr[right];
+            if(sum == target){
+                ans[0]=left;
+                ans[1] =right;
+                break; //After finding the pair break the loop
             }else if(sum<target) left++;
             else right--;
         }
-        return "NO";
+        return ans;
     }
     public static void main(String args[]) {
-        int n = 5;
-        int[] arr = {2, 6, 5, 8, 11};
-        int target = 14;
-        int[] ans = twoSumBruteForce(n, arr, target);
-        System.out.println(Arrays.toString(ans));
+        //int n = 3;
+        int[] arr = {3,2,4};
+        int target = 6;
+        // int[] ans = twoSumBruteForce(n, arr, target);
+        // System.out.println(Arrays.toString(ans));
+        System.out.println(Arrays.toString(twoSumOptimal(arr, target)));
 
     }
 }
