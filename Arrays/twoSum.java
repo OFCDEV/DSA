@@ -24,7 +24,21 @@ public class twoSum {
     If arr[left] + arr[right] < sum, we will increment the left pointer.
     If arr[left] + arr[right] == sum, we will return the result.
     Finally, if no results are found we will return “No” or {-1, -1}.
+
+    Time-Complexity = 0(N)+0(N log N)
      */
+    static String twoSumOptimal(int n,int[] arr,int target){
+        Arrays.sort(arr);
+        int left=0,right=n-1;
+        while (left<right) {
+            int sum = arr[left]+arr[right];
+            if (sum == target) {
+                return "YES";
+            }else if(sum<target) left++;
+            else right--;
+        }
+        return "NO";
+    }
     public static void main(String args[]) {
         int n = 5;
         int[] arr = {2, 6, 5, 8, 11};
