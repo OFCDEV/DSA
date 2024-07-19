@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sortArrayOf0s1s2s",
+            "request": "launch",
+            "mainClass": "Arrays.Sorting.sortArrayOf0s1s2s",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "twoSum",
             "request": "launch",
             "mainClass": "Arrays.twoSum",
