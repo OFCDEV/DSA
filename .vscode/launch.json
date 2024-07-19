@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "twoSum",
+            "request": "launch",
+            "mainClass": "Arrays.twoSum",
+            "projectName": "DSA_6fba82cb"
+        },
+        {
+            "type": "java",
             "name": "removeDupFromSorted",
             "request": "launch",
             "mainClass": "Arrays.removeDupFromSorted",
