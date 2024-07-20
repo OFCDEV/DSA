@@ -41,6 +41,14 @@ If at any point the sum becomes negative we will set the sum to 0 as we are not 
                 maxSum=0;
             }
         }
+        /*Best way(LeetCode)
+        int maxSum = nums[0];
+        int sum = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+            sum = Math.max(nums[i], sum + nums[i]);
+            maxSum = Math.max(maxSum, sum);
+        } */
         return maxSum;
     }
     public static void main(String args[]) {
