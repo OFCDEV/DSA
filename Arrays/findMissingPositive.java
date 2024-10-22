@@ -1,7 +1,7 @@
 package Arrays;
 
 public class findMissingPositive {
-    public int missingNumber(int[] arr){
+    public static int missingNumber(int[] arr){
         int i=0;
         while(i<arr.length){
             int correct = arr[i]-1;
@@ -22,5 +22,10 @@ public class findMissingPositive {
         int temp = arr[first];
         arr[first] = arr[second];
         arr[second] = temp;
+    }
+    public static void main(String[] args) {
+        int[] arr = {1,2,3,5};
+        System.out.println(missingNumber(arr));
+        //System.out.println(findNumXOR(arr,5));
     }
 }
